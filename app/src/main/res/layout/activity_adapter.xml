@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    tools:context=".AdapterActivity">
+
+    <TextView
+        android:id="@+id/tv_label_city_adapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="City: "
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_data_city_adapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="City Data"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_label_city_adapter"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/tv_label_temp_adapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Temperature: "
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_label_city_adapter" />
+
+    <TextView
+        android:id="@+id/tv_data_temp_adapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Temperature Data"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_label_temp_adapter"
+        app:layout_constraintTop_toBottomOf="@+id/tv_data_city_adapter" />
+
+    <TextView
+        android:id="@+id/tv_label_humidity_adapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Humidity: "
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_label_temp_adapter" />
+
+    <TextView
+        android:id="@+id/tv_data_humidity_adapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Humidity Data"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_label_humidity_adapter"
+        app:layout_constraintTop_toBottomOf="@+id/tv_data_temp_adapter" />
+
+    <TextView
+        android:id="@+id/tv_label_conditions_adapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Conditions: "
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_label_humidity_adapter" />
+
+    <TextView
+        android:id="@+id/tv_data_conditions_adapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Conditions Data"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_label_conditions_adapter"
+        app:layout_constraintTop_toBottomOf="@+id/tv_data_humidity_adapter" />
+
+    <TextView
+        android:id="@+id/tv_label_time_adapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Time: "
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_label_conditions_adapter" />
+
+    <TextView
+        android:id="@+id/tv_data_time_adapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Time Data"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_label_time_adapter"
+        app:layout_constraintTop_toBottomOf="@+id/tv_data_conditions_adapter"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
