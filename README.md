@@ -27,4 +27,4 @@ The screen contains:
 **Screen 2: Weather History**
 
 This screen shows the saved weather reports from the Room database, which are displayed in a RecyclerView.
-- Each row showa the city name and all related weather report data
+- Each row shows a city name and all its related weather data
