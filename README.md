@@ -40,3 +40,7 @@ This screen shows the saved weather reports from the Room database, which are di
 **Room Database**
 
 ![Room Database of application.](https://github.com/Fionajiangfj/Assignment2_WEATHER/blob/main/app/src/main/res/drawable/RoomDB.png)
+
+**Ask for device location**
+
+![Screenshots of application asking for device location.](https://github.com/Fionajiangfj/Assignment2_WEATHER/blob/main/app/src/main/res/drawable/GetDeviceLocation.jpg)
