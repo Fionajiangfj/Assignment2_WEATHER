@@ -36,3 +36,7 @@ This screen shows the saved weather reports from the Room database, which are di
 **Screen2**
 
 ![Screen2 of application.](https://github.com/Fionajiangfj/Assignment2_WEATHER/blob/main/app/src/main/res/drawable/Screen2.jpg)
+
+**Room Database**
+
+![Room Database of application.](https://github.com/Fionajiangfj/Assignment2_WEATHER/blob/main/app/src/main/res/drawable/RoomDB.png)
