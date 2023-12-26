@@ -28,3 +28,11 @@ The screen contains:
 
 This screen shows the saved weather reports from the Room database, which are displayed in a RecyclerView.
 - Each row shows a city name and all its related weather data
+
+**Screen1**
+
+![Screen1 of application.](https://github.com/Fionajiangfj/Assignment2_WEATHER/blob/main/app/src/main/res/drawable/Screen1.jpg)
+
+**Screen2**
+
+![Screen2 of application.](https://github.com/Fionajiangfj/Assignment2_WEATHER/blob/main/app/src/main/res/drawable/Screen2.jpg)
