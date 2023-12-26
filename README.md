@@ -29,6 +29,10 @@ The screen contains:
 This screen shows the saved weather reports from the Room database, which are displayed in a RecyclerView.
 - Each row shows a city name and all its related weather data
 
+**Ask for device location**
+
+![Screenshots of application asking for device location.](https://github.com/Fionajiangfj/Assignment2_WEATHER/blob/main/app/src/main/res/drawable/GetDeviceLocation.jpg)
+
 **Screen1**
 
 ![Screen1 of application.](https://github.com/Fionajiangfj/Assignment2_WEATHER/blob/main/app/src/main/res/drawable/Screen1.jpg)
@@ -40,7 +44,3 @@ This screen shows the saved weather reports from the Room database, which are di
 **Room Database**
 
 ![Room Database of application.](https://github.com/Fionajiangfj/Assignment2_WEATHER/blob/main/app/src/main/res/drawable/RoomDB.png)
-
-**Ask for device location**
-
-![Screenshots of application asking for device location.](https://github.com/Fionajiangfj/Assignment2_WEATHER/blob/main/app/src/main/res/drawable/GetDeviceLocation.jpg)
